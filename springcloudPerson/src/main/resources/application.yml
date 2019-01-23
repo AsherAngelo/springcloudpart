@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: cloud-114
+  profiles: localhost
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+#关闭服务器的保护模式配额客户端设置注册时间
+#eureka:
+#  server:
+#    enable-self-preservation: false
+    #清理无用的注册的客户端
+#    eviction-interval-timer-in-ms: 5000
+---
+#server:
+#  port: 8080
+#spring:
+#  profiles: salve1
+#eureka:
+#  client:
+#    #如果是单项目启动需要下面两个为false，为了避免自己向自己注册
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://slave2:8081/eureka
+
+---
+#server:
+#  port: 8081
+#spring:
+#  profiles: salve2
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://slave1:8080/eureka

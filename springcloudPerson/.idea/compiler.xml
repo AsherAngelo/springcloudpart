@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign" />
+        <module name="feignserver" />
+        <module name="HttpClient" />
+        <module name="Hystrix" />
+        <module name="HystrixServer" />
+        <module name="ribbon" />
+        <module name="ribbonserver" />
+        <module name="springcloudDashboard" />
+        <module name="springcloudPeople" />
+        <module name="springcloudPolice" />
+        <module name="springcloudPolice (1)" />
+        <module name="springcloudZuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="feign" target="1.5" />
+      <module name="feignserver" target="1.5" />
+      <module name="first-hy-client" target="1.5" />
+      <module name="HttpClient" target="1.5" />
+      <module name="Hystrix" target="1.5" />
+      <module name="HystrixServer" target="1.5" />
+      <module name="ribbon" target="1.5" />
+      <module name="ribbonserver" target="1.5" />
+      <module name="springcloudDashboard" target="1.5" />
+      <module name="springcloudPeople" target="1.5" />
+      <module name="springcloudPerson" target="1.5" />
+      <module name="springcloudPolice" target="1.5" />
+      <module name="springcloudPolice (1)" target="1.5" />
+      <module name="springcloudZuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

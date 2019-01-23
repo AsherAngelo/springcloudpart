@@ -1,0 +1,37 @@
+server:
+  port: 9010
+#spring:
+#  application:
+#    name: spring-zuul-gateway
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#management:
+#  security:
+#    enabled: false
+zuul:
+  routes:
+    test:
+      url: http://www.163.com, http://www.baidu.com
+  max:
+    host:
+      connections: 500
+      socket-timeout-millis: 60000
+      connect-timeout-millis: 60000
+#    sale:
+#      path: /sale/**
+#      serviceId: spring-zuul-sale
+#    spring-zuul-sale:
+#      path: /sale/**
+#    abc:
+#      path: /sale/**
+#      url: spring-zuul-sale
+#    routeTest:
+#      path: /routeTest/163
+#      url: http://www.163.com/
+#    route163:
+#      url: http://www.163.com/
+#    helloRoute:
+#      path: /test/**
+#      url: forward:/source/hello

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/codes.iml" filepath="$PROJECT_DIR$/.idea/codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-lb-invoker/spring-lb-invoker.iml" filepath="$PROJECT_DIR$/spring-lb-invoker/spring-lb-invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-lb-provider/spring-lb-provider.iml" filepath="$PROJECT_DIR$/spring-lb-provider/spring-lb-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-lb-server/spring-lb-server.iml" filepath="$PROJECT_DIR$/spring-lb-server/spring-lb-server.iml" />
+    </modules>
+  </component>
+</project>

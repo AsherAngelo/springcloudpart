@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/../HttpClient/HttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Hystrix/Hystrix.iml" filepath="$PROJECT_DIR$/../Hystrix/Hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HystrixServer/HystrixServer.iml" filepath="$PROJECT_DIR$/../HystrixServer/HystrixServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feign/feign.iml" filepath="$PROJECT_DIR$/../feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feignserver/feignserver.iml" filepath="$PROJECT_DIR$/../feignserver/feignserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ribbon/ribbon.iml" filepath="$PROJECT_DIR$/../ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ribbonserver/ribbonserver.iml" filepath="$PROJECT_DIR$/../ribbonserver/ribbonserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudDashboard/springcloudDashboard.iml" filepath="$PROJECT_DIR$/../springcloudDashboard/springcloudDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudPeople/springcloudPeople.iml" filepath="$PROJECT_DIR$/../springcloudPeople/springcloudPeople.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudPerson.iml" filepath="$PROJECT_DIR$/springcloudPerson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudPolice/springcloudPolice.iml" filepath="$PROJECT_DIR$/../springcloudPolice/springcloudPolice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudPeople/springcloudPolice (1).iml" filepath="$PROJECT_DIR$/../springcloudPeople/springcloudPolice (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloudZuul/springcloudZuul.iml" filepath="$PROJECT_DIR$/../springcloudZuul/springcloudZuul.iml" />
+    </modules>
+  </component>
+</project>

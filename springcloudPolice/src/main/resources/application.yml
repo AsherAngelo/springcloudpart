@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: cloud-police
+eureka:
+  #instance:
+    #没5秒中告诉服务其我还活着
+   # leaseRenewalIntervalInSeconds: 5
+    #如果10秒中没有发送请求给服务器，服务其就会剔除掉这个服务了
+    #leaseExpirationDurationInSeconds: 10
+    #配合使用需要关闭服务器保护模式
+    #metadata-map:
+     #     company-name: crazyit
+  client:
+    service-url:
+      defaultZone: http://slave2:8081/eureka, http://slave1:8080/eureka
+
+#配置日志
+logging:
+  level:
+    com.netflix: DEBUG
